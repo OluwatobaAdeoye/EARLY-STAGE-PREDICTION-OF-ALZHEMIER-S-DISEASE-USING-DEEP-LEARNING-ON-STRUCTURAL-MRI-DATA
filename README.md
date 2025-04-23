@@ -29,8 +29,6 @@ Unified all data into a common directory
 
 Resized all images to 150x150
 
-Performed one-hot encoding on labels
-
 Normalized image pixel values
 
 Model Used 
