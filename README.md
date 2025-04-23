@@ -1,4 +1,5 @@
 This project leverages structural MRI images alongside deep learning techniques to detect early signs of Alzheimer's Disease. It utilizes Convolutional Neural Networks (CNN), EfficientNetB0, and a hybrid InceptionV3+ResNet50 model for classification.
+
 Dataset 
 Source: Kaggle (via CDC)
 
