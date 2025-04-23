@@ -16,6 +16,7 @@ MildDemented
 ModerateDemented
 
 Splits 
+
 Train: 80%
 
 Validation: 10%
@@ -23,6 +24,7 @@ Validation: 10%
 Test: 10%
 
 Preprocessing 
+
 Unified all data into a common directory
 
 Resized all images to 150x150
@@ -32,7 +34,9 @@ Performed one-hot encoding on labels
 Normalized image pixel values
 
 Model Used 
+
 1. Convolutional Neural Network (CNN)
+   
 3 Conv2D layers with ReLU + MaxPooling
 
 Fully connected Dense layers + Dropout
@@ -42,6 +46,7 @@ Test Accuracy: 97.66%
 Validation Accuracy: 97.35%
 
 2. EfficientNetB0 (Pretrained)
+   
 Fine-tuned on the MRI dataset
 
 GlobalAveragePooling + Dense layers
@@ -51,6 +56,7 @@ Test Accuracy: 91.43%
 Validation Accuracy: 91.56%
 
 3. Hybrid (InceptionV3 + ResNet50)
+   
 Combined features from both networks
 
 Used Concatenate, BatchNormalization, and Dense layers
