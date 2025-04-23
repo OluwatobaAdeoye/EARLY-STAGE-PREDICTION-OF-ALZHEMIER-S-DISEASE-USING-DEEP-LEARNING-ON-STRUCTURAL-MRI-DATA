@@ -62,6 +62,7 @@ Used Concatenate, BatchNormalization, and Dense layers
 Test Accuracy: 90.62%
 
 Validation Accuracy: 92.52%
+
  Model Comparison
  Metric | Class | CNN | EfficientNetB0 | Hybrid Model
 Accuracy | Overall | 98% | 92% | 91%
@@ -69,10 +70,12 @@ Precision | NonDemented | 0.98 | 0.94 | 0.92
  | VeryMildDemented | 1.00 | 0.75 | 1.00
  | MildDemented | 0.98 | 0.88 | 0.93
  | ModerateDemented | 0.98 | 0.98 | 0.86
+ 
 Recall | NonDemented | 0.98 | 0.91 | 0.88
  | VeryMildDemented | 0.67 | 1.00 | 0.67
  | MildDemented | 0.98 | 1.00 | 0.92
  | ModerateDemented | 0.98 | 0.80 | 0.90
+ 
 F1 Score | NonDemented | 0.98 | 0.93 | 0.90
  | VeryMildDemented | 0.80 | 0.86 | 0.80
  | MildDemented | 0.98 | 0.93 | 0.93
