@@ -5,6 +5,7 @@ This project leverages structural MRI images alongside deep learning techniques 
 Source: Kaggle (via CDC)
 
 link to the dataset: https://www.kaggle.com/datasets/yasserhessein/dataset-alzheimer
+or https://drive.google.com/drive/folders/1-1WxAe865Ii65w4guQMYZnOnE91dNBlS
 
 Total Images: 6,400 structural MRI scans
 
